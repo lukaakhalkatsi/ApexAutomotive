@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  line-height: 1;
+  background-color: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+
+.logo-box {
+  text-align: center;
+}
+
+.logo {
+  width: 25%;
+}
+
+.heading {
+  text-align: center;
+  font-weight: 700;
+  color: #333;
+  margin-top: 9.6rem;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  padding: 0 1.8rem;
+}
+
+.text {
+  text-align: center;
+  margin-top: 2.4rem;
+  margin-bottom: 6.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.porsche-container {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  padding: 3.2rem 0;
+  border: 2px solid green;
+}
+
+.porsche-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  border: 2px solid pink;
+}
+
+.porsche-box h1 {
+  font-family: "Rubik Wet Paint", cursive;
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  font-weight: 900;
+}
+
+.porsche-box p {
+  font-size: 1.8rem;
+}
+
+.porsche-box img {
+  width: 70%;
+}
+
+.porsche-box:hover {
+  transform: translateY(-1.5rem);
+}
+
+.main-box {
+  padding: 0 4.8rem;
+}
+
+.browse-btn-box {
+  margin-top: 6.4rem;
+  text-align: center;
+  padding: 0 3.5rem;
+}
+
+.browse-btn-box h1 {
+  margin: 6.4rem 0rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.browse-btn {
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.main-inventory {
+  max-width: 130rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 4.8rem;
+  background-color: white;
+  border-radius: 9px;
+  overflow: hidden;
+  margin-bottom: 3.2rem;
+}
+
+.inventory-container-img1 {
+  background-image: url("../assets/porsche-owner-background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inventory-container-img2 {
+  background-image: url("../assets/porsche-owner-background2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inventory-container-img3 {
+  background-image: url("../assets/porsche-owner-background3.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.inventory-container {
+  padding: 12.8rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 2.4rem;
+}
+
+.inventory-container h2 {
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.inventory-container p {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.browse-newcar {
+  padding: 1.4rem 2.8rem;
+  border: 2px solid #333;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.browse-newcar:hover {
+  background-color: aqua;
+  color: white;
+}
+
+.add-main-box {
+  padding: 0 4.2rem 12.8rem 4.2rem;
+  border-bottom: 2px solid lightgray;
+  margin-bottom: 4.8rem;
+}
+
+.additional-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  margin-top: 12.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.additional-container h5 {
+  font-size: 1.6rem;
+}
+
+.additional-container p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.mainlink-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.link-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.link-container a {
+  color: #333;
+}
+
+.finder-container {
+  max-width: 110rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.finder-container h5 {
+  font-size: 1.6rem;
+}
+
+.finder-container p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.main-overall {
+  padding: 0 3.2rem;
+}
+
+.overall-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.overall-container h2 {
+  font-size: 2rem;
+}
+
+.score-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  margin-bottom: 4.8rem;
+  margin-top: 3.2rem;
+}
+
+.score-box p {
+  font-size: 1.8rem;
+}
+
+.number-box {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.number-box button {
+  padding: 2rem 4.8rem;
+  border-radius: 5px;
+  background: none;
+  border: 2px solid lightgray;
+  cursor: pointer;
+}
+
+.number-box button:hover {
+  border: 2px solid black;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 0 0 3.2rem 0;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.text-box {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.input-textarea {
+  width: 60%;
+  height: 16.9rem;
+  padding: 1rem;
+  font-size: 1.8rem;
+}
+
+.feedback-btn {
+  font-size: 1.8rem;
+  padding: 1.2rem 2.4rem;
+  border: none;
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.end-box {
+  background-color: black;
+  color: white;
+  padding: 4.8rem 3.2rem;
+}
+
+.end-container {
+  max-width: 140rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.end-container p {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.end-container img {
+  filter: invert(100%);
+  width: 20%;
+}
